@@ -48,7 +48,7 @@ const Hero = () => {
                     </div>
                         <p className='text-white-50 md:text-xl relative z-10
                         pointer-events-none'>
-                            We are a team of passionate developers who believe in the power of
+                            I'm a passionate developers who believes in the power of
                             technology to transform businesses and make a difference.
                         </p>
                         <Button

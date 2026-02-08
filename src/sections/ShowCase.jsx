@@ -51,10 +51,10 @@ const ShowCase = () => {
          <div ref={firstRef}
          className='first-project-wrapper'>
             <div className='image-wrapper'>
-                <img src='/images/project1.png'/>
+                <img src='/images/luxliving.jpeg'/>
             </div>
             <div className='text-content'>
-                <h2>On-Demand Rides Made Simple with a powerful, user-friendly App called Ryde</h2>
+                <h2>On-Demand Rental housing Made Simple with a powerful, user-friendly App called <a className='text-blue-600/70'>Luxliving</a></h2>
                 <p className='text-white-50 md:text-xl'>
                     An app built with React native, Expo & Tailwindcss for fast, user-friendly experience.
                 </p>
@@ -66,19 +66,19 @@ const ShowCase = () => {
             <div ref={secondRef}
             className='project'>
                 <div className='image-wrapper bg-[#ffefdb]'>
-                    <img src='/images/project2.png'/>
+                    <img src='/images/summit.jpeg'/>
                 </div>
                 <div>
-                    <h2>Library management platform</h2>
+                    <h2>Financial management platform</h2>
                 </div>
             </div>
 
             <div ref={thirdRef} className='project'>
                 <div className='image-wrapper bg-[#f0afdb]'>
-                    <img src='/images/project3.png'/>
+                    <img src='/images/3d.png'/>
                 </div>
                 <div>
-                    <h2>YC Directory</h2>
+                    <h2>3D interactive website</h2>
                 </div>
             </div>
          </div>
